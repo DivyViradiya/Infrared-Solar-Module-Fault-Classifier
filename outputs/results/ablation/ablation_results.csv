@@ -1,0 +1,6 @@
+Variant,Family,Modality,Seeds,Neural Trainable Params,Model Complexity / Size,Test Acc Mean,Test Acc Std,Macro-F1 Mean,Macro-F1 Std
+Feature-Only LogReg (33-d),Classical (Linear),33-d features,1,—,408 linear weights (33×12+12),0.4925,0.0,0.37620513779862613,0.0
+Feature-Only HistGB (33-d),Classical (GBDT),33-d features,1,—,200 boosting iterations × 12 classes,0.641,0.0,0.4882893653155982,0.0
+Feature-Only MLP (33-d),Neural (MLP),33-d features,3,"31,436","31,436 params (33→128→192→12)",0.703,0.00476969600708475,0.5037092192511778,0.00512885599914302
+Image-Only ViT-Scratch (M1),Neural (ViT),40×24 image,3,"2,683,596","2,683,596 params (6L, d=192, 3H)",0.7101666666666667,0.008962886439832509,0.5120870620068382,0.01535328453135804
+Gated Fusion-ViT (M2),Neural (Multimodal),Image + 33-d gated,3,"2,786,636","2,786,636 params (ViT + MLP + Gate)",0.7038333333333333,0.005795112883571273,0.5207042407591627,0.012327802059542604

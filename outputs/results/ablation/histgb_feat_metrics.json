@@ -1,0 +1,23 @@
+{
+  "model": "histgb_feat",
+  "seed": 42,
+  "parameters": 0,
+  "best_val_f1": 0.47208458117252694,
+  "test_accuracy": 0.641,
+  "test_macro_f1": 0.4882893653155982,
+  "total_training_seconds": 3.9087860584259033,
+  "per_class_f1": {
+    "No-Anomaly": 0.7881448957189902,
+    "Cell": 0.5297297297297298,
+    "Cell-Multi": 0.40963855421686746,
+    "Cracking": 0.6421052631578947,
+    "Diode": 0.7210031347962382,
+    "Diode-Multi": 0.2857142857142857,
+    "Hot-Spot": 0.358974358974359,
+    "Hot-Spot-Multi": 0.35135135135135137,
+    "Offline-Module": 0.4098360655737705,
+    "Shadowing": 0.4939271255060729,
+    "Soiling": 0.3333333333333333,
+    "Vegetation": 0.5357142857142857
+  }
+}

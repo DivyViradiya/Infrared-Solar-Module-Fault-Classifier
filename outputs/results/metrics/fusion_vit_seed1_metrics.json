@@ -1,0 +1,24 @@
+{
+  "model": "fusion_vit",
+  "seed": 1,
+  "parameters": 2786636,
+  "best_val_f1": 0.5254068839446501,
+  "test_loss": 1.908462167739868,
+  "test_accuracy": 0.7,
+  "test_macro_f1": 0.5151852561015904,
+  "total_training_seconds": 1058.2571518421173,
+  "per_class_f1": {
+    "No-Anomaly": 0.8492338111715274,
+    "Cell": 0.5660377358490566,
+    "Cell-Multi": 0.33653846153846156,
+    "Cracking": 0.6217616580310881,
+    "Diode": 0.803921568627451,
+    "Diode-Multi": 0.4666666666666667,
+    "Hot-Spot": 0.32727272727272727,
+    "Hot-Spot-Multi": 0.43243243243243246,
+    "Offline-Module": 0.4260355029585799,
+    "Shadowing": 0.5463917525773195,
+    "Soiling": 0.2631578947368421,
+    "Vegetation": 0.5427728613569321
+  }
+}

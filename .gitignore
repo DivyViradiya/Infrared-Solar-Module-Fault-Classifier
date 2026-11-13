@@ -1,0 +1,80 @@
+# ==============================================================================
+# .gitignore — Infrared Solar Module Fault Classifier Capstone Project
+# ==============================================================================
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebook Auto-Saves & Cache ---
+.ipynb_checkpoints/
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Microsoft Office Temporary / Lock Files ---
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# --- Large Presentation Decks with Embedded Videos (>100MB exceeds GitHub limit) ---
+*.pptx
+
+# --- IDEs & Code Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- Large Datasets (>270 MB, 36,000+ raw image crops) ---
+# Raw image datasets must be downloaded locally per README.md instructions
+data/*
+!data/.gitkeep
+
+# --- Large Deep Learning Model Checkpoints (>1.7 GB total) ---
+# Checkpoints contain large binary weights (e.g., ViT-B/16 ~343MB, Swin-T ~110MB, ResNet-50 ~94MB)
+# which exceed GitHub's 100MB file limit.
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.weights
+outputs/results/checkpoints/*
+!outputs/results/checkpoints/.gitkeep
+

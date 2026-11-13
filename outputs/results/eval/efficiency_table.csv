@@ -1,0 +1,7 @@
+Model,Total Params,Trainable Params,Test Acc (Mean±SD),Macro-F1 (Mean±SD),Train Time (min),Avg Epoch (s),Complexity
+ViT-B/16 (M3),"85,703,436","28,362,252",0.7972 ± 0.0008,0.5971 ± 0.0126,66.9 ± 29.4,211.7 ± 66.0,"O(N²·d), N=61, d=768 (160×96, partial fine-tune)"
+ViT-Scratch (M1),"2,683,596","2,683,596",0.7102 ± 0.0090,0.5121 ± 0.0154,20.7 ± 7.9,36.2 ± 12.6,"O(N²·d), N=61, d=192 (40×24 native, depth=6, heads=3)"
+Fusion-ViT (M2),"2,786,636","2,786,636",0.7038 ± 0.0058,0.5207 ± 0.0123,21.6 ± 6.9,37.1 ± 11.7,"O(N²·d)+O(F), N=61, d=192, F=33 (gated multimodal)"
+Swin-T (B1),"27,528,582","9,228",0.6615 ± 0.0030,0.4118 ± 0.0058,43.2 ± 4.2,259.2 ± 25.0,"O(N·w²·d) shifted-window, w=7 (224×224 frozen backbone)"
+ResNet-50 (B2),"23,532,620","24,588",0.6103 ± 0.0088,0.3972 ± 0.0076,33.2 ± 2.8,198.8 ± 16.7,O(K²·C_in·C_out·H·W) (224×224 frozen backbone)
+MobileNetV3 (B3),"4,217,404","15,372",0.6047 ± 0.0025,0.3858 ± 0.0023,9.9 ± 0.7,59.6 ± 4.1,O(K²·C·H·W) depthwise-separable (224×224 frozen backbone)

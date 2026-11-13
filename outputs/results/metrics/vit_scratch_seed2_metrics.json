@@ -1,0 +1,24 @@
+{
+  "model": "vit_scratch",
+  "seed": 2,
+  "parameters": 2683596,
+  "best_val_f1": 0.5566575352410617,
+  "test_loss": 1.8776272411346435,
+  "test_accuracy": 0.7055,
+  "test_macro_f1": 0.5096034748709616,
+  "total_training_seconds": 1057.3820958137512,
+  "per_class_f1": {
+    "No-Anomaly": 0.8616290480863592,
+    "Cell": 0.5525525525525525,
+    "Cell-Multi": 0.3482142857142857,
+    "Cracking": 0.6636363636363637,
+    "Diode": 0.868421052631579,
+    "Diode-Multi": 0.5294117647058824,
+    "Hot-Spot": 0.3157894736842105,
+    "Hot-Spot-Multi": 0.3380281690140845,
+    "Offline-Module": 0.4370860927152318,
+    "Shadowing": 0.5025641025641026,
+    "Soiling": 0.20408163265306123,
+    "Vegetation": 0.49382716049382713
+  }
+}

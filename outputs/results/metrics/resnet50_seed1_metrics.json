@@ -1,0 +1,24 @@
+{
+  "model": "resnet50",
+  "seed": 1,
+  "parameters": 24588,
+  "best_val_f1": 0.3820705193808038,
+  "test_loss": 2.1530905685424804,
+  "test_accuracy": 0.6205,
+  "test_macro_f1": 0.40598649295244454,
+  "total_training_seconds": 2182.2092337608337,
+  "per_class_f1": {
+    "No-Anomaly": 0.7906755470980019,
+    "Cell": 0.38181818181818183,
+    "Cell-Multi": 0.22660098522167488,
+    "Cracking": 0.6470588235294118,
+    "Diode": 0.5620437956204379,
+    "Diode-Multi": 0.25,
+    "Hot-Spot": 0.24,
+    "Hot-Spot-Multi": 0.2894736842105263,
+    "Offline-Module": 0.3373493975903614,
+    "Shadowing": 0.41818181818181815,
+    "Soiling": 0.20689655172413793,
+    "Vegetation": 0.5217391304347826
+  }
+}

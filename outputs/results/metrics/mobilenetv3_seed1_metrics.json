@@ -1,0 +1,24 @@
+{
+  "model": "mobilenetv3",
+  "seed": 1,
+  "parameters": 15372,
+  "best_val_f1": 0.3857065030760116,
+  "test_loss": 2.168654058456421,
+  "test_accuracy": 0.602,
+  "test_macro_f1": 0.3869840576113823,
+  "total_training_seconds": 641.5080609321594,
+  "per_class_f1": {
+    "No-Anomaly": 0.7848837209302325,
+    "Cell": 0.23048327137546468,
+    "Cell-Multi": 0.297029702970297,
+    "Cracking": 0.6564102564102564,
+    "Diode": 0.5921787709497207,
+    "Diode-Multi": 0.2,
+    "Hot-Spot": 0.23255813953488372,
+    "Hot-Spot-Multi": 0.32432432432432434,
+    "Offline-Module": 0.3558282208588957,
+    "Shadowing": 0.4251207729468599,
+    "Soiling": 0.15789473684210525,
+    "Vegetation": 0.3870967741935484
+  }
+}

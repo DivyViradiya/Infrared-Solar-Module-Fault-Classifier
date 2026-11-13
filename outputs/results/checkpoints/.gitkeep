@@ -1,0 +1,2 @@
+# Preserve checkpoints directory in git while ignoring large model weight binaries (*.pt)
+

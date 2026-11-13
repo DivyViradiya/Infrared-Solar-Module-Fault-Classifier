@@ -1,0 +1,23 @@
+{
+  "model": "logreg_feat",
+  "seed": 42,
+  "parameters": 408,
+  "best_val_f1": 0.3911708209114413,
+  "test_accuracy": 0.4925,
+  "test_macro_f1": 0.37620513779862613,
+  "total_training_seconds": 0.46198296546936035,
+  "per_class_f1": {
+    "No-Anomaly": 0.6526984126984127,
+    "Cell": 0.4378698224852071,
+    "Cell-Multi": 0.2982456140350877,
+    "Cracking": 0.6021505376344086,
+    "Diode": 0.7039473684210527,
+    "Diode-Multi": 0.21428571428571427,
+    "Hot-Spot": 0.13095238095238096,
+    "Hot-Spot-Multi": 0.20689655172413793,
+    "Offline-Module": 0.2541436464088398,
+    "Shadowing": 0.3851851851851852,
+    "Soiling": 0.19753086419753085,
+    "Vegetation": 0.4305555555555556
+  }
+}

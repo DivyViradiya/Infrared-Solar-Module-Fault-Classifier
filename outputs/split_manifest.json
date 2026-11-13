@@ -1,0 +1,27 @@
+{
+  "split_version": "v1_stratified_seed42",
+  "split_seed": 42,
+  "splits_sha256": "7d3bc86cca816613f39a88ec1c1bfc3d399a43f7905908354fab33914e3e61aa",
+  "features_sha256": "6381d03040d3088984c6532c42dcbdbfca5003910c9d569a3354030061abfa71",
+  "counts": {
+    "total": 20000,
+    "train": 16000,
+    "val": 2000,
+    "test": 2000
+  },
+  "preprocessing": {
+    "grayscale_img_mean": 0.449,
+    "grayscale_img_std": 0.226,
+    "rgb_pretrained_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "rgb_pretrained_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "feature_standardization": "train_split_only"
+  }
+}

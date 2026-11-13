@@ -1,0 +1,23 @@
+{
+  "model": "feature_mlp",
+  "seed": 1,
+  "parameters": 31436,
+  "best_val_f1": 0.5287324301186677,
+  "test_accuracy": 0.7005,
+  "test_macro_f1": 0.5015270810818324,
+  "total_training_seconds": 6.76781702041626,
+  "per_class_f1": {
+    "No-Anomaly": 0.8488714425907753,
+    "Cell": 0.5504087193460491,
+    "Cell-Multi": 0.3778801843317972,
+    "Cracking": 0.625,
+    "Diode": 0.7523510971786834,
+    "Diode-Multi": 0.27586206896551724,
+    "Hot-Spot": 0.34615384615384615,
+    "Hot-Spot-Multi": 0.37142857142857144,
+    "Offline-Module": 0.44047619047619047,
+    "Shadowing": 0.5492227979274611,
+    "Soiling": 0.30303030303030304,
+    "Vegetation": 0.577639751552795
+  }
+}

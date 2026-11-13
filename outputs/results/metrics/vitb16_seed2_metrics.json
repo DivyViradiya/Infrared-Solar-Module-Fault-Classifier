@@ -1,0 +1,24 @@
+{
+  "model": "vitb16",
+  "seed": 2,
+  "parameters": 28362252,
+  "best_val_f1": 0.628769409139622,
+  "test_loss": 1.7242603302001953,
+  "test_accuracy": 0.7965,
+  "test_macro_f1": 0.5856207929700996,
+  "total_training_seconds": 5943.610809803009,
+  "per_class_f1": {
+    "No-Anomaly": 0.9324258629071464,
+    "Cell": 0.6596858638743456,
+    "Cell-Multi": 0.4462809917355372,
+    "Cracking": 0.7032967032967034,
+    "Diode": 0.8464163822525598,
+    "Diode-Multi": 0.3333333333333333,
+    "Hot-Spot": 0.35,
+    "Hot-Spot-Multi": 0.43333333333333335,
+    "Offline-Module": 0.618421052631579,
+    "Shadowing": 0.7171717171717171,
+    "Soiling": 0.2631578947368421,
+    "Vegetation": 0.7239263803680982
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model": "swin_t",
+  "seed": 1,
+  "parameters": 9228,
+  "best_val_f1": 0.43048936140386324,
+  "test_loss": 2.061681552886963,
+  "test_accuracy": 0.6635,
+  "test_macro_f1": 0.4164996027205323,
+  "total_training_seconds": 2882.3142578601837,
+  "per_class_f1": {
+    "No-Anomaly": 0.842809364548495,
+    "Cell": 0.43373493975903615,
+    "Cell-Multi": 0.308411214953271,
+    "Cracking": 0.6594594594594595,
+    "Diode": 0.6435331230283912,
+    "Diode-Multi": 0.09090909090909091,
+    "Hot-Spot": 0.19607843137254902,
+    "Hot-Spot-Multi": 0.32941176470588235,
+    "Offline-Module": 0.3356643356643357,
+    "Shadowing": 0.43478260869565216,
+    "Soiling": 0.20689655172413793,
+    "Vegetation": 0.5163043478260869
+  }
+}
